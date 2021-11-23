@@ -28,7 +28,7 @@ services:
     mem_limit: 128m
     hostname: nginx
     depends_on:
-      - api
+      - server
       - client
     ports:
       - "80:80"
